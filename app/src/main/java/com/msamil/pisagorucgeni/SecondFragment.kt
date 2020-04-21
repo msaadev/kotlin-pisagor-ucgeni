@@ -27,19 +27,16 @@ class SecondFragment : Fragment() {
 
         hesapla.setOnClickListener {
 
-            if (!abSide.text.equals("") && !bcSide.text.equals("")){
+            if (abSide.text.toString().equals("") && bcSide.text.toString().equals("")){
+               Toast.makeText(activity,"Lütfen Bi Değer Giriniz !",Toast.LENGTH_LONG).show()
+            }else{
                 val ab = abSide.text.toString().toFloat()
                 val bc = bcSide.text.toString().toFloat()
 
                 val sonuc = hesap(ab,bc)
 
                 sonucText.text = "Sonuç : ${sonuc}"
-
             }
-
-
-
-
         }
     }
 
