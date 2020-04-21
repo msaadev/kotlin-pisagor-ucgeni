@@ -27,7 +27,7 @@ class SecondFragment : Fragment() {
 
         hesapla.setOnClickListener {
 
-            if (!abSide.equals("") && !bcSide.equals("")){
+            if (!abSide.text.equals("") && !bcSide.text.equals("")){
                 val ab = abSide.text.toString().toFloat()
                 val bc = bcSide.text.toString().toFloat()
 
