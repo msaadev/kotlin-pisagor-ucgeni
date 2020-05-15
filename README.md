@@ -2,3 +2,5 @@
 
 bu uygulama umarım bu işe ilk başlayanlara ilham olur ben yaklaşık 2 aydır kotlin ile uygulama yazıyorum 
 6. uygulamamı bitirdim ve ilk uygulamam da bununla aynıydı umarım daha iyilerini siz yaparsınız
+
+https://play.google.com/store/apps/details?id=com.msamil.righttriangle
